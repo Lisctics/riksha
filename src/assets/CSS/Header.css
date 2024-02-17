@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: white;
+    height: 89px;
+}
+
+.Logo {
+    position: absolute;
+    z-index: 2;
+    left: 208px;
+    top: 8px;
+}
+
+.navigate {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    position: absolute;
+    width: 615px;
+    height: 17px;
+    left: 404px;
+    top: 36px;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Phone_img {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 959px;
+    top: 27px;
+}
+
+.Phone_number {
+    position: absolute;
+    width: 134px;
+    height: 20px;
+    left: 980px;
+    top: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1B1B1B;
+}
+
+.time {
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 1025px;
+    top: 47px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #B7B7B7;
+}
+
+.all_price {
+    position: absolute;
+    width: 45px;
+    height: 17px;
+    left: 16px;
+    top: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1B1B1B;
+}
+
+.cart {
+    position: absolute;
+    width: 134px;
+    height: 48px;
+    left: 1180px;
+    top: 20px;
+    height: 48px !important;
+    background: #F5F5F5;
+    border-radius: 6px;
+}
+
+.line {
+    position: absolute;
+    width: 1px;
+    height: 24px;
+    left: 77px;
+    top: 12px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.ordered {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 106px;
+    top: 10px;
+    z-index: 1999;
+    background: #E07153;
+    border-radius: 16px;
+}
+
+.ordered_bg {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    z-index: 1;
+    border-radius: 30px;
+    margin-top: -1px;
+    margin-left: 4.3px;
+    color: white;
+}
+
+.Cart {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 94px;
+    top: 12px;
+}
+
+.user {
+    height: 48px;
+    width: 48px;
+    background-color: #F5F5F5;
+    border-radius: 6px;
+    margin-left: 1340px;
+    position: absolute;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.user_img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 12px;
+    top: 12px;
+}
+
+.bottom {
+    background-color: #F5F5F5;
+    height: 83px;
+    margin-top: 89px;
+    position: absolute;
+    width: 1536px;
+    z-index: 1;   
+}
+
+.bottom_category {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 52px;
+    position: absolute;
+    width: 1036px;
+    height: 60px;
+    z-index: 100;
+    left: 450px;
+    top: 12px;
+}
+
+.food {
+    color: #1B1B1B;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

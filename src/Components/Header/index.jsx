@@ -21,7 +21,7 @@ export default function index() {
       <header>
         <div className='top'>
           <img src={Logo} className='Logo' alt="Logo" />
-          <ul className='navigate w-full'>
+          <ul className='navigate'>
             <li>О нас</li>
             <li>Доставка и оплата</li>
             <li>Контакты</li>

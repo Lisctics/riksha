@@ -1,0 +1,115 @@
+footer {
+    height: 143px;
+    background-color: black;
+    margin-top: 514px;
+    position: absolute;
+    width: 1536px;
+}
+
+.footer_logo {
+    position: absolute;
+    width: 112px;
+    height: 132px;
+    left: 167px;
+    top: -39px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    left: 331px;
+    top: 64px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    color: white;
+    height: 17px;
+    left: 331px;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 35px;
+}
+
+.list1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 396px;
+    height: 17px;
+    left: 714px;
+    top: 35px;
+    color: white;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.list2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 35px;
+    position: absolute;
+    width: 401px;
+    height: 17px;
+    left: 714px;
+    top: 72px;
+    color: white;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.phone_number {
+    position: absolute;
+    height: 30px;
+    left: 1170px;
+    top: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.hour {
+    position: absolute;
+    width: 122px;
+    height: 20px;
+    left: 1270px;
+    top: 69px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.author {
+    position: absolute;
+    height: 15px;
+    left: 1195px;
+    top: 109px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 12px;
+    color: #FFFFFF;
+}

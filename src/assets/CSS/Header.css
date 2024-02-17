@@ -1,96 +1,7 @@
- * {
-    margin: 0px;
-    padding: 0px;
+* {
+    padding: 0;
+    margin: 0;
 }
-header {
-    height: 172px;
-    font-family: "Montserrat";
-}
-.top {
-    width: 1536px;
-    background-color: black;
-}
-.Logo {
-    margin-left: 208px;
-    margin-top: 8px;
-}
-.navigate {
-    margin-left: 404px;
-    margin-top: -124px;
-    display: flex;
-    list-style-type: none;
-    gap: 30px;
-    color: black;
-    font-family: "Montserrat", sans-serif;
-}
-.info_us {
-    margin-left: 1000px;
-    color: black;
-    font-family: "Montserrat", sans-serif;
-    margin-top: -39px;
-}
-.time {
-    color: gray;
-    font-weight: 400;
-    padding-left: 28px;
-    font-size: 14px;
-}
-.cart {
-    height: 50px;
-    width: 150px;
-    background-color: #F5F5F5;
-    border-radius: 5px;
-    margin-left: 1200px;
-    margin-top: -39px;
-    display: flex;
-}
-.cart p {
-    font-size: 14px;
-    padding-top: 17px;
-    padding-left: 20%;
-}
-.line {
-    height: 30px;
-    margin-top: 10px;
-    margin-left: 35px;
-    color: white;
-    background-color: white;
-    border: 1px solid white;
-}
-.Cart {
-    height: 24px;
-    width: 24px;
-    padding-top: 13px;
-    display: flex;
-    margin-left: -35px;
-}
-.ordered {
-    background-color:#E07153;
-    height: 20px;
-    width: 20px;
-    border-radius: 20px;
-    margin-top: 5px;
-    color: white;
-    margin-left: 40px;
-}
-.ordered_bg {
-    padding-left: 5px;
-    margin-top: 1px;
-    display: flex;
-}
-.user {
-    height: 48px;
-    width: 48px;
-    background-color: #F5F5F5;
-    border-radius: 5px;
-    margin-left: 1390px;
-    margin-top: -50px;
-    text-align: center;
-}
-.user_img {
-    padding-top: 10px;
-}
-/*
 header {
     background-color: white;
     height: 89px;
@@ -100,6 +11,7 @@ header {
 .Logo {
     z-index: 2;
     margin-left: 208px;
+    position: absolute;
     margin-top: 8px;
 }
 
@@ -118,6 +30,7 @@ header {
     font-size: 14px;
     line-height: 17.22px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
 }
 
 .Phone_img {
@@ -125,6 +38,7 @@ header {
     height: 16px;
     margin-left: 959px;
     margin-top: -30px;
+    position: absolute;
     display: flex;
 }
 
@@ -132,11 +46,12 @@ header {
     width: 134px;
     height: 20px;
     margin-left: 980px;
-    margin-top: -20px;
+    margin-top: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
+    position: absolute;
     line-height: 20px;
     color: #1B1B1B;
 }
@@ -145,10 +60,11 @@ header {
     width: 92px;
     height: 15px;
     margin-left: 1025px;
-    margin-top: 7px;
+    margin-top: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
+    position: absolute;
     font-size: 12px;
     line-height: 15px;
     color: #B7B7B7;
@@ -265,4 +181,4 @@ header {
 .food {
     color: #1B1B1B;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} */
+} 

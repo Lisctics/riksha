@@ -29,10 +29,8 @@ export default function index() {
             <li>Вакансии</li>
           </ul>
           <img src={Phone} className='Phone_img' alt="Phone number" />
-          <div className='info_us'>
             <p className='Phone_number'>+7 (495) 617-14-24</p>
             <p className='time'>с 10:00 до 23:00</p>
-          </div>
           <div className='cart'>
             <p className='all_price'>0₽</p>
             <hr className='line'/>

@@ -13,6 +13,7 @@ import Salad from "../../assets/Images/Salad.png"
 import Dessert from "../../assets/Images/Dessert.png"
 import Drink from "../../assets/Images/Drink.png"
 import Sale from "../../assets/Images/Sale.png"
+import { Link } from 'react-router-dom'
 
 
 export default function index() {

@@ -1,15 +1,18 @@
-import { useState } from 'react'
-import Header from './Components/Header/index'
-import Footer from './Components/Footer/index'
+import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Layout from './Components/Layout/Layout'
+import Home from './Components/Home'
+import notFound from "./Pages/404 page/index"
 
-function App() {
-
+export default function App() {
   return (
-    <>
-      <Header></Header>
-      <Footer></Footer>
-    </>
+    <div>
+      <Routes>
+        <Route path='/' Component={Layout}>
+          <Route path='/' Component={Home}/>
+          <Route path='*' Component={notFound}/>
+        </Route>
+      </Routes>
+    </div>
   )
 }
-
-export default App

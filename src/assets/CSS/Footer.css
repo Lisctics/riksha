@@ -1,7 +1,7 @@
 footer {
     height: 143px;
     background-color: black;
-    margin-top: 514px;
+    margin-top: 150px;
     position: absolute;
     width: 1536px;
 }
@@ -38,7 +38,7 @@ footer {
     height: 17px;
     left: 331px;
     list-style-type: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Poppins", sans-serif;
     top: 35px;
 }
 
@@ -55,7 +55,7 @@ footer {
     top: 35px;
     color: white;
     list-style-type: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .list2 {
@@ -71,7 +71,7 @@ footer {
     top: 72px;
     color: white;
     list-style-type: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .phone_number {
@@ -79,7 +79,7 @@ footer {
     height: 30px;
     left: 1170px;
     top: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -93,7 +93,7 @@ footer {
     height: 20px;
     left: 1270px;
     top: 69px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -106,7 +106,7 @@ footer {
     height: 15px;
     left: 1195px;
     top: 109px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
@@ -114,3 +114,6 @@ footer {
     color: #FFFFFF;
 }
 
+.not {
+    margin-top: 700px;
+}

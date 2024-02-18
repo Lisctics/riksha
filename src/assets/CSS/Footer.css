@@ -247,3 +247,44 @@ footer {
 .Instagram {
     color: #E07153;
 }
+
+.br {
+    border: 1px solid #E2E1E1;
+}
+
+.small_info {
+    /* Frame 85 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+/* position: absolute; */
+width: 501px;
+height: 60px;
+left: 0px;
+margin-top: 30px;
+
+/* border */
+border: 1px solid #E2E1E1;
+
+}
+
+.tes {
+    border-right: 1px solid gray;
+    width: 132px;
+}
+
+.usl {
+    color: #E07153;
+    border-bottom: 1px solid #E07153;
+}
+
+.tes2 {
+    width: 132px;
+}

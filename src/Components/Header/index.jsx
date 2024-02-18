@@ -23,7 +23,9 @@ export default function index() {
         <div className='top'>
           <img src={Logo} className='Logo' alt="Logo" />
           <ul className='navigate'>
-            <li>О нас</li>
+            <Link to="/catalog">
+              <li>О нас</li>
+            </Link>
             <li>Доставка и оплата</li>
             <li>Контакты</li>
             <li>Бонусы</li>

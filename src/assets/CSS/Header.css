@@ -194,3 +194,7 @@ header {
     background-color: #E07153; 
     background-image: url("../Images/bg_btn.png");
 }
+
+.podrobnee {
+    background-image: url("../Images/btn.png");
+}

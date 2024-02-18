@@ -1,7 +1,7 @@
 footer {
     height: 143px;
     background-color: black;
-    margin-top: 150px;
+    /* margin-top: 150px; */
     position: absolute;
     width: 1536px;
 }
@@ -116,4 +116,134 @@ footer {
 
 .not {
     margin-top: 700px;
+}
+
+.zak {
+    background-image: url("../Images/bg.png");
+    /* background-color: #C95C3F; */
+}
+
+.zak2 {
+    background-color: #C95C3F;
+}
+
+.zak3 {
+    background-color: #E07153;
+    width: 55px;
+    height: 26px;
+    border-radius: 6px;
+    color: white;
+}
+
+.zak4 {
+    background-color: #F5F5F5;
+    height: 26px;
+    width: 55px;
+    border-radius: 6px;
+    color: #B7B7B7;
+}
+
+.combo {
+    height: 770px;
+    background-color: #F5F9FA;
+}
+
+.top2 {
+    background-color: #FBFBFB;
+    height: 700px;
+}
+
+.first {
+    background-color: #D2F6FF;
+    border-radius: 8px;
+    margin-top: -180px;
+}
+
+.second {
+    background-color: #FFD8DA;
+    border-radius: 8px;
+    margin-top: -180px;
+}
+
+.third {
+    background-color: #DBFFCF;
+    border-radius: 8px;
+    margin-top: -180px;
+}
+
+.accent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 10px;
+    gap: 8px;
+    width: 121px;
+    height: 60px;
+    background: #E07153;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: white;
+}
+
+.acent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 10px;
+    gap: 8px;
+    width: 121px;
+    height: 60px;
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.current {
+    color: #E07153;
+    border-top: 1px solid #E07153;
+    border-bottom: 1px solid #E07153;
+    border-radius: 35px;
+    width: 25px;
+}
+
+.we {
+    width: 553px;
+    height: 368px;
+    margin-top: 30px;
+    margin-left: 200px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #1B1B1B;
+}
+
+.p1 {
+    width: 514px;
+    height: 640px;
+    margin-left: 800px;
+    margin-top: -500px;
+    position: absolute;
+    z-index: 1;
+}
+
+.p2 {
+    position: absolute;
+    width: 336px;
+    height: 419px;
+    margin-top: -350px;
+    z-index: 0;
+    margin-left: 1150px;
+}
+
+.Instagram {
+    color: #E07153;
 }

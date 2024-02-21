@@ -16,10 +16,11 @@ import Wok from './pages/Categories/Wok/Wok'
 import Sushi from './pages/Categories/Sushi/Sushi'
 import notFound from "./pages/404 page/index"
 import { CartContext } from './context/cart'
+import Bitta_product from './pages/Bitta_product'
 
 
 export default function App() {
-  const [cart, setCart] = useState("state")
+  const [cart, setCart] = useState([])
   return (
     <CartContext.Provider value={{cart, setCart}}>
       <Routes>
@@ -38,6 +39,7 @@ export default function App() {
           <Route path='/wok' Component={Wok}/>
           <Route path='/sushi' Component={Sushi}/>
           <Route path='*' Component={notFound}/>
+          <Route path='/bittaproduct/:id'Component={Bitta_product}/>
         </Route>
       </Routes>
     </CartContext.Provider>

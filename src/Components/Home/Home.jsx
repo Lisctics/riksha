@@ -15,8 +15,8 @@ export default function Home() {
     <div>
         <Slayder/>
         <Features/>
-        {cart}<hr/>
-        <button onClick={() => setCart("new state")}>state</button>
+        {/* {cart}<hr/>  */}
+        {/* <button onClick={() => setCart("new state")}>state</button> */}
         <Top_news/>
         <Combo/>
         <Sale/>

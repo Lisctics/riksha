@@ -39,7 +39,7 @@ export default function Top_news() {
         </div>
         <div className='grid grid-cols-3  '>
         {loading && (<h1>Loading</h1>)}
-        {data.length > 0 ? result : error}
+        {data.length > 0 ? result : error}  
         </div>
     </div>
   )

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import top from "../../assets/Images/top.png";
 import rooll4 from "../../assets/Images/rooll4.png"
 import Pizza from "../../assets/Images/pizza.png"
@@ -15,8 +15,33 @@ import pizza1 from "../../assets/Images/pizza1.png"
 import arr_left from "../../assets/Images/arr_left.png"
 import arr_right from "../../assets/Images/arr_right.png"
 import bg from "../../assets/Images/bg.png";
+import Card from '../UI-component/Card'
+import axiosInstance from '../../services/axios'
+
 
 export default function Categories() {
+  const [data, setData] = useState([])
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(null)
+
+  useEffect(() => {
+    setLoading(true)
+    axiosInstance.get("/")
+      .then(res => setData(res.data))
+      .catch(err => setError(err.message))
+      .finally(() => setLoading(false))
+  }, [])
+  const result = data.slice(0,6).map(info => {
+    return (<Card 
+      key={info.id}
+      image={info.image} 
+      title={info.title} 
+      // gramm_kl={"200 грамм - 130 Ккал"} 
+      price={info.price +'$'} 
+      text={info.description}
+    />)
+  })
+
   return (
     <div>
         <div className='mt-[150px] bg-zinc-50'>
@@ -66,7 +91,7 @@ export default function Categories() {
             </li>
           </ul>
         </div>
-        <div className=' mt-4 gap-8'>
+        {/* <div className=' mt-4 gap-8'>
           <div className='w-[392px] h-[479px] bg-white ml-28' style={{borderRadius: "5px"}}>
             <img src={pizza1} className='' alt="" />
             <img src={top} className='absolute ml-[340px] -mt-[280px]' alt="" />
@@ -82,7 +107,12 @@ export default function Categories() {
               <p className='-mt-[50px] absolute ml-20 text-xs text-gray-400'>+150₽</p>
             </div>
           </div>
-          </div>
+          </div> */}
+        {loading && (<h1>Loading</h1>)}
+        <div className='grid ml-[85px] grid-cols-3 '>
+        {data.length > 0 ? result : error}
+        </div>
+
           <div className='flex items-center text-center ml-[150px] gap-6 mt-[20px]'>
             <img src={arr_left} alt="" />
             <p className='current'>1</p>

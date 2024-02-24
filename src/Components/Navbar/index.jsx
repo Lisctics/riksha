@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <div>
+    <div className=''>
           <div className='relative z-50 left-20 top-5 w-36'>
             <Link to='/'>
               <img src={Logo} alt="" />

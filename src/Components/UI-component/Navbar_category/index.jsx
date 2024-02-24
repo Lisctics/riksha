@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom'
 export default function Navbar_category() {
   return (
     <div>
-      <div className='flex w-[100%] h-20 bg-gray-100 pt-5 pl-64'>
+      <div className='flex w-full h-20 bg-gray-100 pt-5 pl-64'>
         <ul className='flex gap-16'>
           <Link to="/pizza"><img src={Pizza} alt="" /><p>Pizza</p></Link>
           <Link to="/sushi"><img src={Sushi} alt="" /><p>sushi</p></Link>

@@ -1,33 +1,50 @@
-import React from 'react'
-import Nothing_box from '../Nothing_box/Nothing_box'
-import Button from '../../Components/UI-component/Button/Button'
-import { useCartContext } from '../../context/cart'
+import React from 'react';
+import { useState } from 'react'; // useState import qilish kerak
+import Nothing_box from '../Nothing_box/Nothing_box';
+import Button from '../../Components/UI-component/Button/Button';
+import { useCartContext } from '../../context/cart';
+import { GrTrash } from "react-icons/gr";
 
 export default function Shop() {
-  const {cart, setCart} = useCartContext()
+  const {cart, setCart} = useCartContext();
+
+  // Delete funksiyasini yaratish
+  const deleteItem = (id) => {
+    const updatedCart = cart.filter(item => item.id !== id);
+    setCart(updatedCart);
+  }
+
   return (
-    <div className='flex items-center justify-center my-20'>
-          <div className=' h-[327px] w-[624px] bg-slate-100'>
+    <div>
             {cart.length < 1? (
-              <Nothing_box text={"Ваша корзина пуста"}/> 
+              <div className='flex items-center justify-center my-20'>
+                <Nothing_box text={"Ваша корзина пуста"}/> 
+                    <div className=' h-[327px] w-[624px] bg-slate-100'>
+                      <div className='mt-36'>
+                      <div className='float-end'>
+                      </div>
+                      </div>
+                    </div>
+              </div>
             ) : ""}
             {cart.map((item) => {
               return(
-                <div key={item.id}>
-                  <img src={item.image} className='h-[50px]' alt="" />
-                  <h1>{item.title}</h1>
-                  <p>{item.text}</p>
-                  <p>{item.price}</p>
-                </div>
+                <center>
+                  <div className='w-[750px] h-[125px] bg-white' key={item.id}>
+                    <img src={item.image} className='h-[64px] w-[70px] absolute ml-[80px] mt-[30px]' alt="" />
+                    <div className='pt-[20px] justify-start text-start ml-[100px] w-[350px]'>
+                      <h1 className=''>{item.title}</h1>
+                      <p className='text-xs'>{item.text.slice(0,175)}...</p>
+                    </div>
+                    <div className='flex ml-[650px] -mt-[50px] gap-3'>
+                      <p className=''>{item.price}</p>
+                      <GrTrash className='mt-1' color='orange' onClick={() => deleteItem(item.id)}/>
+                    </div>
+                  </div>
+                </center>
               )
             })}
-            <div className='mt-36'>
-            {/* <p className='text-2xl float-start'>Сумма заказа:<span>0 ₽ </span></p> */}
-            <div className='float-end'>
-            {/* <Button text={"В каталог"}/> */}
-            </div>
-            </div>
-          </div>
     </div>
+    
   )
 }

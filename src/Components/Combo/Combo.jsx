@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Kombo_icon from '../../assets/Image/kombo_icon.png'
 import Card from '../UI-component/Card'
-import Kombo_img from '../../assets/Image/kombo.png'
-import Measure from '../UI-component/Measure/Measure'
-import axiosInstance from '../../services/axios'
+import axiosInstance from '../../services/Axios'
 
 
 export default function Combo() {
@@ -36,7 +34,7 @@ export default function Combo() {
             <img className='h-10 w-10' src={Kombo_icon} alt="" />
         </div>
         <div>
-        <div className='grid grid-cols-3  '>
+        <div className='!grid !grid-cols-1 lg:!grid-cols-3 md:!grid-cols-2'>
         {loading && (<h1>Loading</h1>)}
         {data.length > 0 ? result : error}
         </div>

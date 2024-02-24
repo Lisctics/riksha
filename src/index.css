@@ -14,3 +14,6 @@ input[type="number"] {
   input[type=number]::-webkit-outer-spin-button { 
     -webkit-appearance: none;
   }
+  .scrolll::-webkit-scrollbar{
+    width: 0;
+  }

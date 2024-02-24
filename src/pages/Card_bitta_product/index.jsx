@@ -2,6 +2,8 @@ import React from 'react'
 import Button from '../../Components/UI-component/Button/Button';
 import { useNavigate } from 'react-router'
 
+
+
 export default function Card_bitta_product({image, title, text, price,id}) {
   const navigate = useNavigate()
   return (

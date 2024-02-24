@@ -5,8 +5,8 @@ import { SlSocialVkontakte } from "react-icons/sl";
 import { AiFillInstagram } from "react-icons/ai";
 export default function Footer() {
   return (
-    <div className='w-full h-36 bg-black bottom-0 flex gap-20'>
-        <div className='relative z-50 left-20 -top-10 w-36'>
+    <div className='w-full h-36 bg-black bottom-0 top-full flex gap-20'>
+        <div className='relative z-50 left-10 -top-10'>
             <img src={Logo} alt="" />
         </div>
         <div>
@@ -22,7 +22,7 @@ export default function Footer() {
             </ul>
         </div>
         <div>
-            <ul className='grid grid-cols-5 gap-x-5 text-gray-300 mt-5'>
+            <ul className='sm:!grid  sm:grid-cols-5 !hidden gap-x-5 text-gray-300 mt-5'>
                 <li>Pizza</li>
                 <li>Sushi</li>
                 <li>Roll</li>
@@ -35,7 +35,7 @@ export default function Footer() {
                 <li>Sale</li>
             </ul>
         </div>
-        <div className='mt-6'>
+        <div className='mt-6 sm:!block lg:!block !hidden'>
             <p className='text-2xl text-white'>+7 (495) 617-14-24</p>
             <p className="text-gray-400">c 10:00 до 23:00</p>
             <p className="text-gray-500">© Рикша. Все права защищены.</p>

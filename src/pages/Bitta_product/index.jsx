@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router';
-import axiosInstance from '../../services/axios';
+import axiosInstance from '../../services/Axios';
 import Card_bitta_product from '../Card_bitta_product';
 
 export default function Bitta_product() {

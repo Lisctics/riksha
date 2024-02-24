@@ -10,19 +10,19 @@ import Instagramm from '../Instagramm/Instagramm'
 import {useCartContext} from '../../context/cart'
 
 export default function Home() {
-  const {cart, setCart} = useCartContext()
   return (
     <div>
         <Slayder/>
         <Features/>
-        {/* {cart}<hr/>  */}
-        {/* <button onClick={() => setCart("new state")}>state</button> */}
+        {/* <h2>{cart} carts</h2> */}
+        {/* {cart}<hr/>
+        <button onClick={() => cart.push(cart)}>state</button> */}
         <Top_news/>
         <Combo/>
         <Sale/>
         <Categories/>
-        <Company/>
-        <Instagramm/>
+        {/* <Company/>
+        <Instagramm/> */}
     </div>
   )
 }
